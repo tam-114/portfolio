@@ -1,19 +1,15 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<title>Taylor Stanley: Major Project: Website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-	
 	<div>
 		<ul class="navbar">
 			<li class="nav"><a href="#img" class="navlink">Image</a></li>
 			<li class="nav"><a href="#bio" class="navlink">Biography</a></li>
 			<li class="nav"><a href="#work" class="navlink">Work Description</a></li>
 			<li class="nav"><a href="#projects" class="navlink">Digital Projects</a></li>
-
 		</ul>
 	</div>
 
@@ -46,8 +42,6 @@
 			<img src="dig_projectManga.png" alt="Manga Reading Website" width="400" height="550">
 			<h2><em>MangaSite</em></h2>
 			<p>Current project developing a manga reading website for personal use. Practical for practicing and learning Javascript.</p>
-			</div>
-		
 	</div>
 
 	<hr>
