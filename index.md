@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Taylor Stanley: Major Project: Website</title>
+	<title>Taylor Stanley: Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -10,9 +10,9 @@
 			<li class="nav"><a href="#bio" class="navlink">Biography</a></li>
 			<li class="nav"><a href="#work" class="navlink">Work Description</a></li>
 			<li class="nav"><a href="#projects" class="navlink">Digital Projects</a></li>
+			<li class="nav"><a href="#resume" class="navlink">Resume</a></li>
 		</ul>
 	</div>
-
 	<div>
 	<h1 id="name" class="textcenter"><em>TAYLOR STANLEY</em></h1> <!--add class if need be for styling-->
 	</div>
@@ -42,6 +42,12 @@
 			<img src="dig_projectManga.png" alt="Manga Reading Website" width="400" height="550">
 			<h2><em>MangaSite</em></h2>
 			<p>Current project developing a manga reading website for personal use. Practical for practicing and learning Javascript.</p>
+	</div>
+
+	<hr>
+	<div class="textcenter">
+		<h1 id="resume">Resume</h1>
+		<iframe src="Resume2020_TaylorS.pdf" width="100%" height="2100px"></iframe>
 	</div>
 
 	<hr>
