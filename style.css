@@ -1,6 +1,6 @@
 body {
-	background-color: #02075d;
-	/*background-color: #dfe9ec;*/
+	/*background-color: #02075d;*/
+	background-color: #dfe9ec;
 
 }
 
@@ -15,8 +15,8 @@ h2 {
 }
 
 p {
-	/*color: #02075d;*/
-	color: #dfe9ec;
+	color: #02075d;
+	/*color: #dfe9ec;*/
 	margin-left: 15%;
 	margin-right: 15%;
 	font-family: Tahoma, Arial, sans-serif;
