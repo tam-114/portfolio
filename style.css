@@ -18,14 +18,18 @@ p {
 	color: #dfe9ec;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-top: 10%;
 	font-family: Tahoma, Arial, sans-serif;
 	font-size: 24px;
+}
+
+div {
+	
 }
 
 
 .textcenter {
 	text-align: center;
+	margin-top: 10%;
 }
 
 .center {
