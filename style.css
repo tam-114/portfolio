@@ -68,9 +68,9 @@ li a.navlink:hover {
  	margin-right: auto;
   	
 }
-/*img {
-	border: 10px double #ffb833;
-}*/
+img {
+	border: 10px double white;
+}
 hr {
 	border-radius: 5px;
 	border-top: 1px solid #ffb833;
