@@ -59,7 +59,7 @@ ul.navbar {
 	text-align: center;
 }
 li a.navlink:hover {
-	background-color: #ffb833;
+	background-color: white;
 }
 
 .centerimg {
@@ -69,6 +69,7 @@ li a.navlink:hover {
   	
 }
 img {
+	margin-top: 5%;
 	border: 10px double white;
 }
 hr {
