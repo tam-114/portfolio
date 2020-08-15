@@ -68,9 +68,9 @@ li a.navlink:hover {
  	margin-right: auto;
   	
 }
-img {
+/*img {
 	border: 10px double #ffb833;
-}
+}*/
 hr {
 	border-radius: 5px;
 	border-top: 1px solid #ffb833;
@@ -80,7 +80,7 @@ ul.stylelist {
 	list-style-type: none;
 }
 a.list {
-	color: #02075d;
+	color: black;
 	font-family: Tahoma, Arial, sans-serif;
 	font-size: 24px;
 	text-decoration: underline overline wavy #ffb833;
