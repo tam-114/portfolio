@@ -1,6 +1,6 @@
 body {
 	/*background-color: #02075d;*/
-	background-color: #dfe9ec;
+	background-color: black;
 
 }
 
@@ -15,7 +15,7 @@ h2 {
 }
 
 p {
-	color: #02075d;
+	color: lightblue;
 	/*color: #dfe9ec;*/
 	margin-left: 15%;
 	margin-right: 15%;
