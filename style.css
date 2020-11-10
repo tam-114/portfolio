@@ -23,7 +23,13 @@ p {
 	font-size: 24px;
 }
 
+#showcase {
+	background-image: url("portfolio/welcome.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
 
+}
 .textcenter {
 	text-align: center;
 
