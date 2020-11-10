@@ -27,8 +27,7 @@ p {
 	background-image: url("image/flowers_wallpaper.jpg");
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
-
+	/*height: 100vh;*/
 }
 .textcenter {
 	text-align: center;
