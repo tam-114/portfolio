@@ -4,6 +4,13 @@ body {
 
 }
 
+.showcase {
+	background-image: url("image/flowers_wallpaper.jpg");
+	background-size: cover;
+	background-position: center;
+	/*height: 100vh;*/
+}
+
 h1 {
 	color: #ffb833;
 	font-family: Georgia, serif;
@@ -23,12 +30,7 @@ p {
 	font-size: 24px;
 }
 
-.showcase {
-	background-image: url("image/flowers_wallpaper.jpg");
-	background-size: cover;
-	background-position: center;
-	/*height: 100vh;*/
-}
+
 .textcenter {
 	text-align: center;
 
