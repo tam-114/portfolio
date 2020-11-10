@@ -19,16 +19,16 @@
 	<button onclick="typeWriter()">Get started</button>
 
 	
-	<p id="flex"></p>
+	<p id="flex">Welcome to my Portfolio Page</p>
 
 	<script>
 	var i = 0;
-	var txt = 'Hi! My name is Taylor Stanley; welcome to my homepage. Feel free to explore!';
+	var txt = 'Hi! My name is Taylor Stanley; feel free to explore!';
 	var speed = 50;
 
 		function typeWriter() {
 		  if (i < txt.length) {
-    		document.getElementById("demo").innerHTML += txt.charAt(i);
+    		document.getElementById("flex").innerHTML += txt.charAt(i);
     		i++;
     		setTimeout(typeWriter, speed);
   			}
