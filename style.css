@@ -32,12 +32,11 @@ p {
 
 
 .textcenter {
-	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 0 20px;
+	padding: auto;
 
 }
 
@@ -46,8 +45,7 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	padding: 0 20px;
+	padding: auto;
 
 }
 
