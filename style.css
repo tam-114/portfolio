@@ -1,6 +1,13 @@
+@font-face{
+	font-family: "emerald";
+	src: url("../font/emerald.otf");
+}
+
+
 body {
 	/*background-color: #02075d;*/
 	background-color: black;
+	font-family: "emerald";
 
 }
 
