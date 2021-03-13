@@ -161,3 +161,29 @@ footer {
 	margin-top: -15px;
 	margin-bottom: -15px;
 }
+
+/*contact form*/
+.container {
+	border: 1px solid #ffa366; /*light orange*/
+	padding: 20px;
+}
+
+input[type=text], [type=email], [type=password], textarea {
+	width: 100%;
+	border: 1px solid #cc5200; /*dark brown*/
+	border-radius: 5px;
+	padding: 10px;
+}
+
+input[type=submit] {
+	border: 1px solid #cc5200; /*dark brown*/
+	border-radius: 5px;
+	padding: 10px;
+	font-family: 'Antic Slab', serif;
+	font-size: 15px;
+}
+label {
+	font-size: 20px;
+	font-family: 'Antic Slab', serif;
+	color: #214145; /*dark blue*/
+}
