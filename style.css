@@ -26,13 +26,13 @@ html, body {
 }
 
 h1 {
-	color: #ff8533;
+	color: #ff8533; /*orange*/
 	font-family: "emerald";
 	font-size: 36px;	
 }
 
 h2 {
-	color: #ffb833;
+	color: #ffa366; /*light orange*/
 }
 
 p {
@@ -123,6 +123,7 @@ img {
 .bioimg {
 	float: left;
 }
+
 hr {
 	border-radius: 5px;
 	border-top: 1px solid #ffb833;
