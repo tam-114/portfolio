@@ -8,12 +8,15 @@
 body {
 	background-color: #000000; /*black*/
 	font-family: "emerald";
+
+}
+
+body.bg {
 	background-image: url(image/flowers_wallpaper.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
     position: relative;
-
 }
 
 html, body {
