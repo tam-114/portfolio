@@ -15,6 +15,9 @@ body {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .showcase {
@@ -218,11 +221,4 @@ label {
    	margin: 5px 5px;
 }
 
-}
-
-footer#bottom {
-	color: #99ddff;
-	font-family: 'Antic Slab', serif;
-	bottom: 0px;
-	text-align: center;
 }
