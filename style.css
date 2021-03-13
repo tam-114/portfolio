@@ -119,6 +119,10 @@ img {
 	margin-top: 5%;
 	border: 10px double white;
 }
+
+.bioimg {
+	float: left;
+}
 hr {
 	border-radius: 5px;
 	border-top: 1px solid #ffb833;
