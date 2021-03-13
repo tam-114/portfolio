@@ -52,7 +52,7 @@ p {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-family: 'Antic Slab', serif;
-  background-color: #ff8533;
+  background-color: #ff8533; /*orange*/
   border: none;
   color: white;
   padding: 5px 5px;
@@ -158,4 +158,5 @@ footer {
 
 .logo {
 	float: right;
+	margin-top: -15px;
 }
