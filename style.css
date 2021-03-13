@@ -187,3 +187,15 @@ label {
 	font-family: 'Antic Slab', serif;
 	color: #214145; /*dark blue*/
 }
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 5px 5px;
+   	margin: 5px 5px;
+}
+
+.grid-item {
+	padding: 5px 5px;
+   	margin: 5px 5px;
+}
