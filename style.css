@@ -219,3 +219,10 @@ label {
 }
 
 }
+
+footer#bottom {
+	color: #99ddff;
+	font-family: 'Antic Slab', serif;
+	bottom: 0px;
+	text-align: center;
+}
