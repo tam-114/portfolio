@@ -128,6 +128,9 @@ li a.navlink:hover {
 .projimg {
 	margin-top: 5%;
 	border: 10px double white;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .bioimg {
