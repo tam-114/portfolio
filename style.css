@@ -106,7 +106,7 @@ ul.navbar {
 	margin: 0;
 	margin-bottom: 2%;
 	padding: 14px 0px;
-	background-color: #99ddff;
+	background-color: #99ddff; /*pastel blue*/
 }
 .nav {
 	display: inline;
@@ -115,7 +115,7 @@ ul.navbar {
 
 .navlink {
 	text-decoration: none;
-	color: black;
+	color: #00001a; /*dark blue*/
 	padding: 14px 16px;
 	text-align: center;
 }
@@ -164,7 +164,8 @@ a.list {
 }
 
 footer {
-	color: #99ddff;
+	background-color: #99ddff; /*lightblue*/
+	color: #00001a; /*dark blue*/
 	/*padding-top: 5px;*/
 	/*font-family: 'Antic Slab', serif;*/
 	font-family: 'Poiret One', cursive;
@@ -172,6 +173,7 @@ footer {
 	right: 0px;
 	bottom: 0px;
 	position: fixed;
+	width: 100%;
 }
 
 .logo {
