@@ -230,7 +230,7 @@ label {
    	border: 2px solid #99ddff; /*light blue*/
 }
 
-@media only screen and (max-width: 700px) {
+/*@media only screen and (max-width: 700px) {
 	.grid {
 	display: grid;
 	grid-template-columns: auto;
@@ -243,4 +243,4 @@ label {
    	margin: 5px 5px;
 }
 
-}
+}*/
