@@ -3,6 +3,7 @@
 	src: url("../portfolio/font/Bespoke-PJ6c3792KH.otf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
 
 body {
 	/*background-color: #02075d;*/
@@ -30,12 +31,12 @@ h2 {
 }
 
 p {
-	color: lightblue;
+	color: #99ddff; /*lightblue*/
 	line-height: 40px;
 	margin-left: 15%;
 	margin-right: 15%;
 	font-size: 24px;
-	font-family: "emerald";
+	font-family: 'Antic Slab', serif;
 }
 
 .centerButton {
@@ -45,7 +46,7 @@ p {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-family: "emerald";
+  font-family: 'Antic Slab', serif;
 }
 
 .textcenter {
@@ -116,11 +117,17 @@ ul.stylelist {
 }
 a.list {
 	color: black;
-	font-family: "emerald";
+	font-family: 'Antic Slab', serif;
 	font-size: 24px;
 	text-decoration: underline overline wavy #ffb833;
 }
 
 #name {
 	font-size: 40px;
+}
+
+footer {
+	color: #99ddff;
+	padding-top: 5px;
+	font-family: 'Antic Slab', serif;
 }
