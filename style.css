@@ -173,19 +173,24 @@ input[type=text], [type=email], [type=password], textarea {
 	border: 1px solid #cc5200; /*dark brown*/
 	border-radius: 5px;
 	padding: 10px;
+	margin-bottom: 15px;
 }
 
 input[type=submit] {
-	border: 1px solid #cc5200; /*dark brown*/
 	border-radius: 5px;
-	padding: 10px;
 	font-family: 'Antic Slab', serif;
 	font-size: 15px;
+	background-color: #ff8533; /*orange*/
+  	border: none;
+  	color: white;
+  	padding: 5px 5px;
+  	text-align: center;
+  	text-decoration: none;
 }
 label {
 	font-size: 20px;
 	font-family: 'Antic Slab', serif;
-	color: #214145; /*dark blue*/
+	color: #ffa366; /*light orange*/
 }
 
 .grid {
