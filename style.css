@@ -29,9 +29,9 @@ html, body {
 }
 
 .showcase {
-	background-image: url("image/flowers_wallpaper.jpg");
+	/*background-image: url("image/flowers_wallpaper.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: center;*/
 	height: 85%;
 	position: relative;
 }
