@@ -3,11 +3,12 @@
 	src: url("../portfolio/font/Bespoke-PJ6c3792KH.otf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
 
 body {
 	background-color: #000000; /*black*/
-	font-family: "emerald";
+	/*font-family: "emerald";*/
 
 }
 
@@ -51,7 +52,8 @@ p {
 	margin-left: 25%;
 	margin-right: 15%;
 	font-size: 24px;
-	font-family: 'Antic Slab', serif;
+	/*font-family: 'Antic Slab', serif;*/
+	font-family: 'Poiret One', cursive;
 }
 
 .centerButton {
@@ -61,7 +63,8 @@ p {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-family: 'Antic Slab', serif;
+  /*font-family: 'Antic Slab', serif;*/
+  font-family: 'Poiret One', cursive;
   background-color: #ff8533; /*orange*/
   border: none;
   color: white;
@@ -149,7 +152,8 @@ ul.stylelist {
 }
 a.list {
 	color: black;
-	font-family: 'Antic Slab', serif;
+	/*font-family: 'Antic Slab', serif;*/
+	font-family: 'Poiret One', cursive;
 	font-size: 24px;
 	text-decoration: underline overline wavy #ffb833;
 }
@@ -161,7 +165,8 @@ a.list {
 footer {
 	color: #99ddff;
 	/*padding-top: 5px;*/
-	font-family: 'Antic Slab', serif;
+	/*font-family: 'Antic Slab', serif;*/
+	font-family: 'Poiret One', cursive;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
@@ -201,7 +206,8 @@ input[type=submit] {
 }
 label {
 	font-size: 20px;
-	font-family: 'Antic Slab', serif;
+	/*font-family: 'Antic Slab', serif;*/
+	font-family: 'Poiret One', cursive;
 	color: #ffa366; /*light orange*/
 }
 
