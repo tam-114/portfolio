@@ -155,3 +155,7 @@ footer {
 	z-index: -1;
 	position: absolute;
 }
+
+.logo {
+	float: right;
+}
