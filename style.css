@@ -196,7 +196,8 @@ input[type=text], [type=email], [type=password], textarea {
 
 input[type=submit] {
 	border-radius: 5px;
-	font-family: 'Antic Slab', serif;
+	/*font-family: 'Antic Slab', serif;*/
+	font-family: 'Poiret One', cursive;
 	font-size: 15px;
 	background-color: #ff8533; /*orange*/
   	border: none;
