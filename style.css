@@ -204,7 +204,7 @@ label {
 
 .grid {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto;
 	padding: 5px 5px;
    	margin: 5px 5px;
 }
