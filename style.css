@@ -52,6 +52,13 @@ p {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-family: 'Antic Slab', serif;
+  background-color: #ff8533;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .textcenter {
