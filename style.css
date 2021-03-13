@@ -26,7 +26,7 @@ html, body {
 }
 
 h1 {
-	color: #ff8533; /*orange*/
+	color: #ffa366; /*light orange*/
 	font-family: "emerald";
 	font-size: 36px;	
 }
@@ -115,13 +115,14 @@ li a.navlink:hover {
  	margin-right: auto;
   	
 }*/
-img {
+.projimg {
 	margin-top: 5%;
 	border: 10px double white;
 }
 
 .bioimg {
 	float: left;
+	border: 10px double #ffa366; /*light orange*/
 }
 
 hr {
