@@ -12,6 +12,11 @@ body {
 
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .showcase {
 	background-image: url("image/flowers_wallpaper.jpg");
 	background-size: cover;
@@ -80,7 +85,7 @@ ul.navbar {
 	margin: 0;
 	margin-bottom: 2%;
 	padding: 14px 0px;
-	background-color: lightblue;
+	background-color: #99ddff;
 }
 .nav {
 	display: inline;
