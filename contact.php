@@ -1,3 +1,20 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="t.stanley@gmail.com";
+    $subject="Form to email message";
+    $firstname=$_POST["firstname"];
+    $emailaddress=$_POST["emailaddress"];
+    $comment=$_POST["comment"];
+
+    $mailBody="Name: $firstname\nEmail: $emailaddress\n\n$comment";
+
+    mail($recipient, $subject, $mailBody, "From: $firstname <$emailaddress>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?>
 <html>
 <head>
 	<title>Taylor Stanley: Portfolio</title>
@@ -21,8 +38,10 @@
 <div>
 	<h1 class="textcenter">Contact Me</h1>
 </div>
+
+<?=$thankYou ?>
 <div class="container">
-	<form method="post" action="contact.php">
+	<form method="post" action="">
 		
 		<label for="ftname">&#x2740; First Name &#x2740;</label>
 		<input type="text" id="ftname" name="firstname" placeholder="Input your first name">
