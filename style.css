@@ -36,8 +36,16 @@ body.reflected-bg {
     position: relative;
 }
 
-body.brown-bg {
+body.brown-bg-right {
 	background-image: url(image/brown-bg.png);
+	background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+
+body.brown-bg-left {
+	background-image: url(image/brown-bg-left.png);
 	background-size: cover;
     background-position: center;
     height: 100%;
