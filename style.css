@@ -97,7 +97,7 @@ p {
   transform: translate(-50%, -50%);
   /*font-family: 'Antic Slab', serif;*/
   font-family: 'Poiret One', cursive;
-  background-color: #ff8533; /*orange*/
+  background-color: #FFC8A3; /*light pink*/
   border: none;
   color: white;
   padding: 5px 5px;
@@ -232,7 +232,7 @@ input[type=submit] {
 	/*font-family: 'Antic Slab', serif;*/
 	font-family: 'Poiret One', cursive;
 	font-size: 15px;
-	background-color: #ff8533; /*orange*/
+	background-color: #FFC8A3; /*light pink*/
   	border: none;
   	color: white;
   	padding: 5px 5px;
