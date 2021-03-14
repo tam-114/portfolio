@@ -28,6 +28,14 @@ body.flip-bg {
     position: relative;
 }
 
+body.reflected-bg {
+	background-image: url(image/reflected_bg.png);
+	background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
