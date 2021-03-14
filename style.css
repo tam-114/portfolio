@@ -60,9 +60,6 @@ html, body {
 }
 
 .showcase {
-	/*background-image: url("image/flowers_wallpaper.jpg");
-	background-size: cover;
-	background-position: center;*/
 	height: 85%;
 	position: relative;
 }
@@ -95,11 +92,10 @@ p {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  /*font-family: 'Antic Slab', serif;*/
   font-family: 'Poiret One', cursive;
   background-color: #FFC8A3; /*light pink*/
   border: none;
-  color: white;
+  color: #00001a; /*dark blue*/
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
@@ -112,7 +108,6 @@ p {
 	justify-content: center;
 	align-items: center;
 	padding: 0 20px;
-
 }
 
 #flex {
@@ -151,17 +146,12 @@ ul.navbar {
 	text-align: center;
 }
 li a.navlink:hover {
-	background-color: white;
+	background-color: #00001a; /*dark blue*/
 }
 
-/*.centerimg {
-	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
-  	
-}*/
+
 .projimg {
-	border: 10px double white;
+	border: 10px double #00001a; /*dark blue*/
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -183,7 +173,6 @@ ul.stylelist {
 }
 a.list {
 	color: black;
-	/*font-family: 'Antic Slab', serif;*/
 	font-family: 'Poiret One', cursive;
 	font-size: 24px;
 	text-decoration: underline overline wavy #ffb833;
@@ -196,8 +185,6 @@ a.list {
 footer {
 	background-color: #99ddff; /*lightblue*/
 	color: #00001a; /*dark blue*/
-	/*padding-top: 5px;*/
-	/*font-family: 'Antic Slab', serif;*/
 	font-family: 'Poiret One', cursive;
 	font-weight: bold;
 	left: 0px;
@@ -229,22 +216,20 @@ input[type=text], [type=email], [type=password], textarea {
 
 input[type=submit] {
 	border-radius: 5px;
-	/*font-family: 'Antic Slab', serif;*/
 	font-family: 'Poiret One', cursive;
 	font-size: 15px;
 	background-color: #FFC8A3; /*light pink*/
   	border: none;
-  	color: white;
+  	color: #00001a;
   	padding: 5px 5px;
   	text-align: center;
   	text-decoration: none;
 }
+
 label {
 	font-size: 20px;
-	/*font-family: 'Antic Slab', serif;*/
 	font-family: 'Poiret One', cursive;
-	color: #99ddff; /*lightblue*/
-	/*color: #FFC8A3; light pink*/
+	color: #99ddff; /*light blue*/
 }
 
 .grid {
@@ -258,18 +243,3 @@ label {
 	padding: 5px 5px;
    	margin: 5px 5px;
 }
-
-/*@media only screen and (max-width: 700px) {
-	.grid {
-	display: grid;
-	grid-template-columns: auto;
-	padding: 5px 5px;
-   	margin: 5px 5px;
-}
-
-.grid-item {
-	padding: 5px 5px;
-   	margin: 5px 5px;
-}
-
-}*/
