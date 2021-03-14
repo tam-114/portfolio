@@ -74,6 +74,8 @@ h1 {
 h2 {
 	color: #FFC8A3; /*light pink*/
 	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	text-shadow: 2px 2px #00001a;
 }
 
 p {
