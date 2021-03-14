@@ -83,6 +83,7 @@ p {
 	margin-right: 15%;
 	font-size: 24px;
 	font-family: 'Poiret One', cursive;
+	font-weight: bold;
 }
 
 .centerButton {
@@ -233,6 +234,7 @@ label {
 	font-size: 20px;
 	font-family: 'Poiret One', cursive;
 	color: #99ddff; /*light blue*/
+	font-weight: bold;
 }
 
 .grid {
