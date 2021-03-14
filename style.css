@@ -67,7 +67,8 @@ html, body {
 h1 {
 	color: #FFC8A3; /*light pink*/
 	font-family: "emerald";
-	font-size: 36px;	
+	font-size: 36px;
+	text-shadow: 2px 2px #00001a; /*dark blue*/	
 }
 
 h2 {
@@ -81,7 +82,6 @@ p {
 	margin-left: 25%;
 	margin-right: 15%;
 	font-size: 24px;
-	/*font-family: 'Antic Slab', serif;*/
 	font-family: 'Poiret One', cursive;
 }
 
@@ -101,6 +101,7 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .textcenter {
@@ -225,6 +226,7 @@ input[type=submit] {
   	padding: 5px 5px;
   	text-align: center;
   	text-decoration: none;
+  	font-weight: bold;
 }
 
 label {
