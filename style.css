@@ -68,13 +68,13 @@ html, body {
 }
 
 h1 {
-	color: #ffa366; /*light orange*/
+	color: #FFC8A3; /*light pink*/
 	font-family: "emerald";
 	font-size: 36px;	
 }
 
 h2 {
-	color: #ffa366; /*light orange*/
+	color: #FFC8A3; /*light pink*/
 	font-family: "emerald";
 }
 
@@ -169,7 +169,7 @@ li a.navlink:hover {
 
 .bioimg {
 	float: left;
-	border: 10px double #ffa366; /*light orange*/
+	border: 10px double #FFC8A3; /*light pink*/
 	margin-right: 10px;
 }
 
@@ -215,7 +215,7 @@ footer {
 
 /*contact form*/
 .container {
-	border: 1px solid #ffa366; /*light orange*/
+	border: 1px solid #FFC8A3; /*light pink*/
 	padding: 20px;
 }
 
@@ -244,7 +244,7 @@ label {
 	/*font-family: 'Antic Slab', serif;*/
 	font-family: 'Poiret One', cursive;
 	color: #99ddff; /*lightblue*/
-	/*color: #ffa366; light orange*/
+	/*color: #FFC8A3; light pink*/
 }
 
 .grid {
