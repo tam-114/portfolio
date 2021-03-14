@@ -36,6 +36,13 @@ body.reflected-bg {
     position: relative;
 }
 
+body.brown-bg {
+	background-image: url(image/brown-bg.png);
+	background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
 html, body {
     max-width: 100%;
     overflow-x: hidden;
