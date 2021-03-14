@@ -8,7 +8,7 @@
 
 body {
 	background-color: #000000; /*black*/
-	font-family: "emerald";
+	font-family: 'Poiret One', cursive;
 
 }
 
@@ -66,7 +66,7 @@ html, body {
 
 h1 {
 	color: #FFC8A3; /*light pink*/
-	font-family: "emerald";
+	font-family: 'Poiret One', cursive;
 	font-size: 36px;
 	text-shadow: 2px 2px #00001a; /*dark blue*/	
 }
@@ -139,7 +139,9 @@ ul.navbar {
 }
 .nav {
 	display: inline;
-	font-family: "emerald";
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .navlink {
