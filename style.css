@@ -21,7 +21,7 @@ body.bg {
 }
 
 body.flip-bg {
-	background-image: url(image/flip_bg.jpg);
+	background-image: url(image/flip_bg.png);
 	background-size: cover;
     background-position: center;
     height: 100%;
