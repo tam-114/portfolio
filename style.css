@@ -20,6 +20,14 @@ body.bg {
     position: relative;
 }
 
+body.flip-bg {
+	background-image: url(image/flip-bg.jpg);
+	background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
