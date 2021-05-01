@@ -38,7 +38,7 @@ form, label {
 }
 
 .opaque {
-	opacity: 0.9;
+	opacity: 0.5;
 }
 
 .container {
@@ -49,7 +49,7 @@ form, label {
 
 .right-text {
 	position: absolute;
- 	top: 40%;
+ 	top: 45%;
   	left: 65%;
   	transform: translate(-50%, -50%);
   	font-weight: 800;
