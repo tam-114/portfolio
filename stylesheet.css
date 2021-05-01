@@ -55,7 +55,46 @@ form, label {
   	font-weight: 800;
 }
 
+.right-side {
+	position: absolute;
+ 	top: 20%;
+  	left: 48%;
+  	/*transform: translate(-50%, -50%);*/
+  	font-weight: 800;
+}
+
+.left-side {
+	position: absolute;
+ 	top: 20%;
+  	right: 51%;
+  	/*transform: translate(-50%, -50%);*/
+  	font-weight: 800;
+}
+
+.imgborder {
+	border: 5px solid #ffa366;
+}
 
 button, a {
 	color: white;
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+}
+li {
+	color: #ffa366;
+	font-weight: 400;
+	list-style-type: none;
+	padding: 5px;
+	
+}
+
+.low-para {
+	position: relative;
+	top: 40%;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
 }
