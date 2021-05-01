@@ -2,41 +2,77 @@
 <head>
 	<title>Taylor Stanley: Portfolio</title>
 	<link rel="shortcut icon" href="image/favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-<body class="brown-bg-right">
-	<div>
-		<ul class="navbar">
-			<li class="nav"><a href="https://tam-114.github.io/portfolio/" class="navlink">Home</a></li>
-			<li class="nav"><a href="https://tam-114.github.io/portfolio/biography.html" class="navlink">About Me</a></li>
-			<li class="nav"><a href="https://tam-114.github.io/portfolio/projects.html" class="navlink">Digital Projects</a></li>
-			<li class="nav"><a href="https://tam-114.github.io/portfolio/resume.html" class="navlink">Resume</a></li>
-			<li class="nav"><a href="https://tam-114.github.io/portfolio/contact.html" class="navlink">Contact Me</a></li>
-			<li class="nav"><img src="image/logo_TS.png" alt="logo TS" class="logo" width="50px" height="50px"></li>
-		</ul>
-	</div>
+<body>
+	<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">-->
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #cfe9fc;">
+	  <a class="navbar-brand" href="#">
+	  	<img src="image/logo_TS.png" alt="logo TS" class="logo" width="50px" height="50px">
+	  </a>
+	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link" href="https://taystan.dev/">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="https://taystan.dev/biography.html">About Me</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="https://taystan.dev/projects.html">Digital Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="https://taystan.dev/resume.html">Resume</a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="https://taystan.dev/contact.html">Contact Me</a>
+		      </li>
+		    </ul>
+		  </div>
+	</nav>
 
+<br>
 <div>
-	<h1 class="textcenter">Contact Me</h1>
+	<h1 class="text-center">Contact Me</h1>
 </div>
-<div class="container">
+<!--<div class="container">-->
 	<form method="post" action="https://formspree.io/f/xwkwgrnb">
-		
-		<label for="ftname">&#x2740; First Name &#x2740;</label>
-		<input type="text" id="ftname" name="firstname" placeholder="Input your first name">
+		<div class="form-group">
+			<label for="ftname">&#x2740; First Name &#x2740;</label>
+			<input class="form-control" type="text" id="ftname" name="firstname" placeholder="First name">
+			<br>
 
-		<label for="ltname">&#x2740; Last Name &#x2740;</label>
-		<input type="text" id="ltname" name="lastname" placeholder="Input your last name">
+			<label for="ltname">&#x2740; Last Name &#x2740;</label>
+			<input class="form-control" type="text" id="ltname" name="lastname" placeholder="Last name">
+			<br>
 
-		<label for="emailadd">&#x2740; E-Mail Address &#x2740;</label>
-		<input type="email" id="emailadd" name="emailaddress" placeholder="Input your e-mail">
+			<label for="emailadd">&#x2740; E-Mail Address &#x2740;</label>
+			<input class="form-control" type="email" id="emailadd" name="emailaddress" placeholder="E-mail">
+			<br>
 
-		<label for="comment">&#x2740; Additional Comments &#x2740;</label>
-		<textarea id="comment" name="comment" placeholder="Input any comments you have here!" style="height: 100px;"></textarea>
+			<label for="comment">&#x2740; Additional Comments &#x2740;</label>
+			<textarea class="form-control" id="comment" name="comment" placeholder="Input any comments you have here!" style="height: 100px;"></textarea>
+			<br>
 
-		<input type="submit" value="Submit">
+			<input class="btn btn-outline-light" type="submit" value="Submit">
+			<br>
+			<br>
+		</div>
 	</form>
-	<footer class="textcenter">Taylor Stanley | 2021 &copy;</footer>
+	<footer class="text-center">Taylor Stanley | 2021 &copy;</footer>
 </div>
+
+	<!--Javascript BootStrap script-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
