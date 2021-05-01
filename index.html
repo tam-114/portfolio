@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-<body class="bg-img">
+<body>
 	<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">-->
 	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #cfe9fc;">
 	  <a class="navbar-brand" href="#">
@@ -39,34 +39,22 @@
 		  </div>
 	</nav>
 
-	<div class="text-center">
-
-	<h1 style="padding-top: 150px;">Welcome to My Portfolio Page</h1>
-	
-
-	<button style="margin-top: 20px;" class="btn btn-outline-light" onclick="typeWriter()">Hi</button>
-
-	<p style="padding-top: 20px;" id="flex"></p>
-
+<div class="container">
+	<img class="opaque" src="image/rose-gold-blossom-bg.jpg" alt="Rose Gold Blossom Bg" width=100%; style="height: 600px;">
+	<div class="right-text">
+		<h1 style="font-size: 50px;">Hi, I'm Taylor Stanley.</h1>
+		<p> My goal is to create effective sites that bring your ideas to life.</p>
+		<button class="btn btn-outline-light"><a href="https://taystan.dev/resume.html">Resume</a></button>
+		<button class="btn btn-outline-light"><a href="https://taystan.dev/contact.html">Contact</a></button>
+	</div>
 	
 </div>
-	<footer class="text-center">Taylor Stanley | 2021 &copy;</footer>
+
+<footer class="text-center">Taylor Stanley | 2021 &copy;</footer>
+
 	<!--Javascript BootStrap script-->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-<script>
-	var i = 0;
-	var txt = 'My name is Taylor Stanley; feel free to explore!';
-	var speed = 50;
-
-		function typeWriter() {
-		  if (i < txt.length) {
-    		document.getElementById("flex").innerHTML += txt.charAt(i);
-    		i++;
-    		setTimeout(typeWriter, speed);
-  			}
-		}
-	</script>
 </html>
