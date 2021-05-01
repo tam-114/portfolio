@@ -93,8 +93,9 @@ li {
 
 .low-para {
 	position: relative;
-	top: 40%;
+	top: 48%;
 	text-align: center;
 	padding-left: 20%;
 	padding-right: 20%;
+	padding-bottom: 25px;
 }
