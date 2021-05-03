@@ -72,6 +72,7 @@ li {
 	color: #ffa366;
 	font-weight: 400;
 	list-style-type: none;
-	padding: 5px;
+	text-align: center;
+	/*padding: 5px;*/
 	
 }
