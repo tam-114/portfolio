@@ -76,3 +76,9 @@ li {
 	/*padding: 5px;*/
 	
 }
+
+iframe.resume {
+	width: 100%;
+	height: 1100px;
+	background-color: #404040;
+}
