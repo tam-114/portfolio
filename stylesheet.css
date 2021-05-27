@@ -70,8 +70,9 @@ ul {
 }
 li {
 	color: #ffa366;
-	font-weight: 400;
+	font-weight: 500;
 	list-style-type: none;
+	text-align: center;
 	/*padding: 5px;*/
 	
 }
