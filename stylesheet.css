@@ -13,9 +13,10 @@ p {
 	color: #ffa366;
 }
 
-p.line-height {
+.line-height {
 	line-height: 7px;
 }
+
 footer {
 	color: black;
 	font-family: 'Poiret One', cursive;
