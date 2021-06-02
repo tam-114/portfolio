@@ -7,11 +7,12 @@ body {
 .background {
 	background-image: url("image/light-grey-terrazzo.png");
 	background-repeat: repeat;
+	opacity: 0.8;
 }
 
 .colorStyle {
 	background-color: #330d00;
-	opacity: 0.8;
+	
 }
 
 h1 {
