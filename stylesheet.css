@@ -5,7 +5,8 @@ body {
 }
 
 .background {
-	background-image: url("image/darkbrown-texture-bg.png");
+	/*background-image: url("image/darkbrown-texture-bg.png");*/
+	background-image: url("image/leaves-portfolio-bg.png");
 	background-repeat: repeat;
 }
 
