@@ -4,6 +4,27 @@ body {
 	background-color: #1a001a; /*dark purple*/
 }
 
+@media screen and (max-width: 480px) {
+	#aboutme-list {
+		padding-top: 350px;
+	}
+}
+
+#aboutme-img {
+	/*padding-left: 20%;*/
+}
+
+#aboutme-list {
+	/*padding-left: 35%;
+	padding-top: 2%;*/
+}
+
+#aboutme-info {
+	/*padding-left: 35%;
+	padding-right: 10%;
+	padding-bottom: 20px;*/
+}
+
 .bg-dark-purple {
 	background-color: #1a001a;
 }
