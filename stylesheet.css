@@ -26,6 +26,19 @@ body {
 	#aboutme-info {
 		padding-left: 10px;
 	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.carousel-inner {
+		width: 400px;
+		height: 300px;
+	}
+
+	.carousel {
+		width: 400px!important;
+		height: 300px!important;
+	}
 }
 
 #aboutme-img {
@@ -269,6 +282,6 @@ iframe.cert {
 .carousel {
 	width:800px;
 	height:500px; 
-	justify-content: center;
+	/*justify-content: center;*/
 	margin: 0 auto;
 }
