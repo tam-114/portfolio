@@ -42,14 +42,14 @@ body {
 
 	.resume-img {
 		content:  url("image/TayStan_Resume2021_Purple.jpg");
-		width: 520px;
+		width: 400px;
 		height: 600px;
 		margin: 0 auto;
 	}
 	.cert-img {
 		content:  url("image/CertificateOfCompletion_LearningtheJavaScriptLanguage1024_1.jpg");
-		width: 500px;
-		height: 400px;
+		width: 400px;
+		height: 300px;
 		margin: 0 auto;
 	}
 }
