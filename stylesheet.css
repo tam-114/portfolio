@@ -1,42 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 body {
-	background-color: #330d00;
+	background-color: #1a001a; /*dark purple*/
 }
 
-.background {
-	/*background-image: url("image/darkbrown-texture-bg.png");*/
-	background-image: url("image/leaves-portfolio-bg.png");
-	background-repeat: repeat;
+.bg-dark-purple {
+	background-color: #1a001a;
 }
 
-.colorStyle {
-	background-color: #330d00;
+.bg-gray {
+	background-color: #808080;
 }
+
+.navbar-light .navbar-nav .nav-link {
+	font-weight: 600;
+}
+.bg-dusk {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("image/dusk.png");
+}
+
 
 h1 {
-	color: #ffa366;
+	color: #4d004d;
 	font-family: 'Poiret One', cursive;
+
 }
 
 p {
-	color: #ffa366;
+	color: #4d004d; /*purple*/
 }
 
-.line-height {
-	line-height: 7px;
+#p-intro {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+#p-dark {
+	font-size: 20px;
+	color: white;
 }
 
 footer {
-	color: black;
+	color: white;
 	font-family: 'Poiret One', cursive;
 	font-weight: 600;
-	background-color: #cfe9fc;
+	/*font-weight: 300;*/
+	background-color: #ffa366;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
 	position: relative;
 	width: 100%;
+	overflow: hidden;
+}
+
+#footer-links {
+	color: white;
+	padding-right: 10px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#footer-links:hover {
+	/*box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#div-links {
+	float:right;
+	margin-left: 10px;
+	padding-top: 30px;
+	padding-left: 5%;
+	height: 130px;
+}
+
+#p-trademark {
+	float:right;
+	color: white;
+	padding-right: 10px;
 }
 
 nav {
@@ -46,7 +87,7 @@ nav {
 }
 
 form, label {
-	color: #ffa366;
+	color: #4d004d;
 	font-weight: 600;
 
 }
@@ -61,22 +102,35 @@ form, label {
   	/*color: white;*/
 }
 
-.right-text {
-	position: absolute;
- 	top: 45%;
-  	left: 65%;
-  	transform: translate(-50%, -50%);
+.weight-text {
   	font-weight: 800;
 }
 
+/*images*/
+
+#img-position {
+	float: left; 
+	margin-right: 10px;
+}
 
 .imgborder {
-	border: 5px solid #ffa366;
+	border: 5px solid #4d004d;
 }
+/*Buttons*/
 
 button, a {
+	color: #1a001a; /*dark purple*/
+}
+
+button, a:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#button:hover {
+	text-decoration: none;
 	color: white;
 }
+
 
 ul {
 	text-decoration: none;
@@ -97,9 +151,61 @@ li {
 	/*padding: 5px;*/
 	
 }
+ 
+
+
+input[type=submit] {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 iframe.resume {
-	width: 100%;
-	height: 1100px;
-	background-color: #404040;
+	width: 75%;
+	height: 1070px;
+	/*background-color: #404040;*/
+	justify-content: center;
+}
+
+iframe.cert {
+	width: 50%;
+	height: 525px;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+#h1-intro {
+	font-size: 50px; 
+	color: #4d004d;
+	text-shadow: 2px 2px 3px gray;
+
+}
+
+#h1-intro-dark {
+	font-size: 50px; 
+	color: #ffe6ff;
+	text-shadow: 2px 2px 3px gray;
+
+}
+
+#h1-aboutme {
+	padding-top: 2%; 
+	padding-bottom: 2%;
+	color: #1a001a;
+	font-weight: 600;
+	text-shadow: 2px 2px 3px gray;
+}
+
+#h1-resume {
+	padding-top: 2%; 
+	padding-bottom: 2%; 
+	color: #ffe6ff; 
+	font-weight: 600;
+	text-shadow: 2px 2px 3px gray;
+}
+
+#h1-contact {
+	padding-top: 2%; 
+	padding-bottom: 2%; 
+	color: #1a001a; 
+	font-weight: 600;
+	text-shadow: 2px 2px 3px gray;
 }
