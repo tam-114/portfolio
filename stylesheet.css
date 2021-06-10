@@ -39,6 +39,19 @@ body {
 		width: 400px!important;
 		height: 300px!important;
 	}
+
+	.resume-img {
+		content:  url("image/TayStan_Resume2021_Purple.jpg");
+		width: 520px;
+		height: 600px;
+		margin: 0 auto;
+	}
+	.cert-img {
+		content:  url("image/CertificateOfCompletion_LearningtheJavaScriptLanguage1024_1.jpg");
+		width: 500px;
+		height: 400px;
+		margin: 0 auto;
+	}
 }
 
 #aboutme-img {
