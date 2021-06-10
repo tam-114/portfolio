@@ -4,6 +4,15 @@ body {
 	background-color: #1a001a; /*dark purple*/
 }
 
+.bg-dark-purple {
+	background-color: #1a001a;
+}
+
+.bg-gray {
+	background-color: #808080;
+}
+
+
 @media screen and (max-width: 480px) {
 	#aboutme-list {
 		padding-top: 350px;
@@ -34,14 +43,31 @@ body {
 	padding-bottom: 20px;*/
 }
 
-.bg-dark-purple {
-	background-color: #1a001a;
+/*social buttons*/
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
-.bg-gray {
-	background-color: #808080;
+.fa:hover {
+    opacity: 0.7;
 }
 
+.fa-linkedin {
+  background: #ccffee;
+  color: black;
+}
+
+.fa-github {
+	background: #ff99ff;
+    color: black;
+   }
+
+
+/*nav & header*/
 .navbar-light .navbar-nav .nav-link {
 	font-weight: 600;
 }
@@ -49,7 +75,7 @@ body {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("image/dusk.png");
 }
 
-
+/*text styling*/
 h1 {
 	color: #4d004d;
 	font-family: 'Poiret One', cursive;
@@ -238,4 +264,11 @@ iframe.cert {
 	color: #1a001a; 
 	font-weight: 600;
 	text-shadow: 2px 2px 3px gray;
+}
+
+.carousel {
+	width:800px;
+	height:500px; 
+	justify-content: center;
+	margin: 0 auto;
 }
