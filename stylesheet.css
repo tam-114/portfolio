@@ -157,9 +157,8 @@ footer {
 }
 
 #p-trademark {
-	float:right;
 	color: white;
-	padding-right: 10px;
+	text-align: right;
 }
 
 nav {
@@ -179,9 +178,8 @@ form, label {
 }
 
 .container {
-	position: relative;
-  	text-align: center;
-  	/*color: white;*/
+	/*position: relative;*/
+  text-align: center;
 }
 
 .weight-text {
