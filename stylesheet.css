@@ -11,13 +11,13 @@ body > footer{
 /*media screen for carousel*/
 @media screen and (max-width: 850px) {
 	.img-width {
-		width: 400px;
+		width: 65vw;
 	}
 }
 
 @media screen and (min-width: 830px) {
 	.img-width {
-		width:  600px;
+		width: 75vw;
 	}
 }
 
@@ -128,16 +128,6 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-	.carousel-inner {
-		width: 400px;
-		height: 300px;
-	}
-
-	.carousel {
-		width: 400px!important;
-		height: 300px!important;
-	}
-
 	.resume-img {
 		content:  url("image/TayStan_Resume2021_Purple.jpg");
 		width: 400px;
@@ -149,10 +139,6 @@ body {
 		width: 400px;
 		height: 300px;
 		margin: 0 auto;
-	}
-
-	.carousel {
-		width: 400px!important;
 	}
 }
 
@@ -405,8 +391,7 @@ iframe.cert {
 	text-shadow: 2px 2px 3px gray;
 }
 .carousel {
-	width:600px;
-	/*justify-content: center;*/
+	width: 100%;
 	margin: 0 auto;
 	diplay: flex;
 }
