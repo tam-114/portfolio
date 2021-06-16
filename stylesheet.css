@@ -111,40 +111,24 @@ body {
 }
 
 
-@media screen and (max-width: 480px) {
-	#aboutme-list {
-		padding-top: 350px;
-		padding-left: 5px;
-	}
-
-	#aboutme-img {
-		padding-left: 10px;
-	}
-
-	#aboutme-info {
-		padding-left: 5px;
-	}
-
-}
-
 @media screen and (max-width: 600px) {
 	.resume-img {
 		content:  url("image/TayStan_Resume2021_Purple.jpg");
-		width: 400px;
-		height: 600px;
+		width: 70vw;
+		height: 70vh;
 		margin: 0 auto;
 	}
 	.cert-img {
 		content:  url("image/CertificateOfCompletion_LearningtheJavaScriptLanguage1024_1.jpg");
-		width: 400px;
-		height: 300px;
+		width: 70vw;
+		height: 70vh;
 		margin: 0 auto;
 	}
 }
 
-#aboutme-img {
+/*#aboutme-img {
 	padding-left: 20%;
-}
+}*/
 
 #aboutme-list {
 	/*padding-left: 35%;
