@@ -98,6 +98,19 @@ body > footer{
 	opacity:  0.5;
 	/*maybe a box shadow*/
 }
+
+/*Modal button as img for ERA*/
+#myBtnMENU {
+	background-image: url(image/choppin-stix-logo.png);
+	background-repeat: none;
+	width: 300px; /*size of modal preview -- create preview graphic*/
+	height: 300px; /*size of modal preview --create preview graphic*/
+}
+
+#myBtnMENU:hover {
+	opacity:  0.5;
+	/*maybe a box shadow*/
+}
 body {
 	background-color: #1a001a; /*dark purple*/
 }
@@ -121,7 +134,7 @@ body {
 	.cert-img {
 		content:  url("image/CertificateOfCompletion_LearningtheJavaScriptLanguage1024_1.jpg");
 		width: 70vw;
-		height: 70vh;
+		height: 60vh;
 		margin: 0 auto;
 	}
 }
