@@ -155,7 +155,7 @@ body {
 }
 
 /*social buttons*/
-.fa {
+.fab {
   padding: 10px;
   font-size: 30px;
   text-align: center;
@@ -163,20 +163,55 @@ body {
   margin: 5px 2px;
 }
 
-.fa:hover {
+.fab:hover {
     opacity: 0.7;
 }
 
 .fa-linkedin {
-  background: #ccffee;
+  background: #ccffee; /*green*/
   color: black;
 }
 
 .fa-github {
-	background: #ff99ff;
-    color: black;
-   }
+	background: #ff99ff; /*pink*/
+  color: black;
+ }
 
+/*about me skills*/
+.fa-html5 {
+	background: #ff99ff;
+  color: black;
+
+}
+
+.fa-css3 {
+	background: #ccffee; /*green*/
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fa-js {
+	background: #ff99ff;
+  color: black;
+}
+
+.fa-bootstrap {
+	background: #ccffee; /*green*/
+  color: black;
+}
+
+.fa-wordpress {
+	background: #ff99ff;
+  color: black;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.fa-php {
+	background: #ccffee; /*green*/
+  color: black;
+}
 
 /*nav & header*/
 .navbar-light .navbar-nav .nav-link {
@@ -285,6 +320,7 @@ form, label {
 
 .imgborder {
 	border: 5px solid #4d004d;
+	border-radius: 20px;
 }
 /*Buttons*/
 
@@ -362,6 +398,15 @@ iframe.cert {
 	color: #1a001a;
 	font-weight: 600;
 	text-shadow: 2px 2px 3px gray;
+}
+
+#h3-skills {
+	padding-top: 2%; 
+	padding-bottom: 2%;
+	color: #1a001a;
+	font-weight: 600;
+	text-shadow: 2px 2px 3px gray;
+	
 }
 
 #h1-resume {
