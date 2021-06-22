@@ -134,7 +134,7 @@ body {
 	.cert-img {
 		content:  url("image/CertificateOfCompletion_LearningtheJavaScriptLanguage1024_1.jpg");
 		width: 70vw;
-		height: 60vh;
+		height: 50vh;
 		margin: 0 auto;
 	}
 }
