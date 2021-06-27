@@ -2,19 +2,32 @@
 <head>
 	<title>Taylor Stanley: Portfolio</title>
 	<link rel="shortcut icon" href="image/favicon.ico"/>
-	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--Google fonts-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+	<!--Bootstrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+	<!--Font library-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!--My CSS-->
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+	<!--jQuery, then JS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!--My JS-->
+	<script type="text/javascript" src="js/script.js"></script>
+
+	
 </head>
 
 <body>
-	<div>
-
-		<nav class="navbar navbar-expand-lg navbar-light bg-dusk">
+		<nav class="navbar navbar-expand-lg navbar-light bg-dusk sticky-top">
 			<div class="container">
 
 		  <a class="navbar-brand" href="https://taystan.dev/">
@@ -26,36 +39,255 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 			    <ul class="navbar-nav ml-auto">
 			      <li class="nav-item active">
-			        <a class="nav-link" href="https://taystan.dev/">Home <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="https://taystan.dev/biography">About Me</a>
+			        <a class="nav-link" href="#bio">About Me</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="https://taystan.dev/projects">Digital Projects</a>
+			        <a class="nav-link" href="#projects">Projects</a>
 			      </li>
-			      <li class="nav-item">
+			      <!--<li class="nav-item">
 			        <a class="nav-link" href="https://taystan.dev/resume">Resume</a>
-			      </li>
+			      </li>-->
 			      <li class="nav-item">
-			        <a class="nav-link" href="https://taystan.dev/contact">Contact Me</a>
+			        <a class="nav-link" href="#contact">Contact Me</a>
 			      </li>
 			    </ul>
 			  </div>
 			</div>
 		</nav>
-	</div>
 <!--Intro section-->
+<header>
+	<section>
 		<div class="container-sm weight-text text-center bg-dusk" style="padding-top: 5%; padding-bottom: 5%;">
-			<h1 id="h1-intro">Hi, I'm Taylor Stanley.</h1>
+			<h1 class="h1-intro" id="home">Hi, I'm Taylor Stanley.</h1>
 			<p id="p-intro"><em>Junior Web Developer</em></p>
 			<p style="font-weight: 600;"> My goal is to bring your site ideas to life!</p>
-			<button class="btn btn-outline-dark"><a href="https://taystan.dev/resume" id="button">Resume</a></button>
-			<button class="btn btn-outline-dark"><a href="https://taystan.dev/contact" id="button">Contact</a></button>
+			<button class="btn btn-outline-dark"><a id="button" href="TaylorStanley_InfographicResume2021.pdf" download="TayStanResume">Resume</a></button>
+			<button class="btn btn-outline-dark"><a href="#contact" id="button">Contact</a></button>
 		</div>
-
+	</section>
+</header>
 <!--About Me section-->
-<div class="container-fluid bg-light">
+
+<section>
+	<article>
+		<div class="bg-light">
+			<h1 class="text-center h1-aboutme" id="bio">About Me</h1>
+		<div class="container">
+			<div class="box">
+				<div class="item-One">
+					<!--<h3 class="h3-skills">Skills</h3>-->
+					<ul class="ul-skills">
+						<li class="li-skills"><a href="#" class="fab fa-html5"></a></li>
+						<li class="li-skills"><a href="#" class="fab fa-css3"></a></li>
+						<li class="li-skills"><a href="#" class="fab fa-js"></a></li>
+					</ul>
+					<ul class="ul-skills">
+						<li class="li-skills"><a href="#" class="fab fa-bootstrap"></a></li>
+						<li class="li-skills"><a href="#" class="fab fa-wordpress"></a></li>
+						<li class="li-skills"><a href="#" class="fab fa-php"></a></li>
+					</ul>
+				</div>
+				<div class="item-Two">
+					<img src="image/profile-pic.jpg" alt="Taylor Stanley Profile Pic" class="imgborder" width="250px" height="300px">
+				</div>
+				<div class="item-Three">
+					<ul class="info">
+						<li><p>&#x2740; <strong>Status:</strong> Senior at the University of Central Florida</p></li>
+						<li><p>&#x2740; <strong>Major:</strong> Digital Media - Web Design Track</p></li>
+						<li><p>&#x2740; <strong>Aspirations:</strong> Jr. Front-End Web Developer</p></li>
+						<li><p>&#x2740; <strong>Seeking:</strong> Internship for Web Development</p></li>
+						<li><p>&#x2740; <strong>Located:</strong> Orlando, FL</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<p class="p-aboutme">I'm currently pursuing my B.A in Digital Media: <em>Web Design</em> track to build my skillset in web development. 
+				I was attracted to UCF because of the proven track record of technological advancements and career networking opportunities Orlando offered. 
+				I hope to join communities in the area that can further my learning process and help others achieve their goals. 
+				I have strong foundational knowledge in HTML5, CSS3, and Javascript for front-end, and PHP for back-end. I'm currently learning React.js and Wordpress, and framework of choice is Bootstrap. 
+				I'm also pursuing a minor in Information Technology for a better understanding of communications technology. For graphic design, my primary software is Adobe Photoshop.
+			</p>
+		</div>
+			</div>
+		</div>
+	</article>
+</section>
+
+<!--Projects-->
+<section>
+	<article class="bg-dark-purple">
+		<h1 class="text-center h1-projects" id="projects">Projects</h1>
+		
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-sm">
+			<!--Modal for ERA.BN-->
+			<!-- Trigger/Open The Modal -->
+			<button id="myBtnERA"></button>
+		
+			<!-- The Modal -->
+			<div id="myModalERA" class="modal">
+					<!-- Modal content -->
+				<div class="modal-content">
+						<span class="close">&times;</span>
+					<h2 class="h2-font">Era.Bn</h2>
+					<div id="carouselExampleControls1" class="carousel slide" data-interval="false">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block img-width" src="image/erabn.png" alt="ERA.BN Call Center Home">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block img-width" src="image/erabn2.png" alt="ERA.BN Call Center About Us">
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+					<br>
+					<p class="text-center p-dark"><a href="https://www.erabn.com/" style="color: #cfe9fc;">Link</a> to project using Google Sites to create a Call Center webpage for the company ERA.BN.</p>
+					<div class="text-center">
+						<img src="icons/Google_Sites_icon-32px.png" class="rounded" alt="Google Sites icon">
+					</div>
+				</div>
+			</div>
+		</div>
+	<br>
+		<!--Modal for FG Trivia-->
+		<div class="col-sm">
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtnFG"></button>
+		<!-- The Modal -->
+			<div id="myModalFG" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2 class="h2-font">Family Guy Trivia</h2>
+						<div id="carouselExampleControls2" class="carousel slide" data-interval="false">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block img-width" src="image/fg-trivia2-screenshot.png" alt="Family Guy Trivia">
+								</div>					
+								<div class="carousel-item">
+									<img class="d-block img-width" src="image/fg-trivia4-screenshot.png" alt="Family Guy Trivia">
+								</div>
+							</div><!--<div class="carousel-inner">-->
+							<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+							</a>
+						</div><!--<div id="carouselExampleControls2" class="carousel slide" data-interval="false">-->
+					<br>
+						<p class="text-center p-dark"><a href="https://tam-114.github.io/fgtrivia/" style="color: #cfe9fc;">Link</a> to current personal project creating a trivia website based on the television show, "Family Guy."</p>
+						<div class="text-center">
+							<img src="icons/html-32.png" class="rounded" alt="HTML icon">
+							<img src="icons/css-32.png" class="rounded" alt="CSS icon">
+							<img src="icons/js-32.png" class="rounded" alt="Javascript icon">
+						</div><!--<div class="text-center">-->
+				</div><!--<div class="modal-content">-->
+			</div><!--<div id="myModal" class="modal">-->
+		</div><!--<div class="col">-->
+	</div><!--end of row-->
+	<br>
+	
+	<!--Modal for Konohana-->
+	<div class="row justify-content-center">
+		<div class="col-sm">
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtnKO"></button>
+		<!-- The Modal -->
+			<div id="myModalKO" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2 class="h2-font">Konohana Sakuya</h2>
+				<div id="carouselExampleControls3" class="carousel slide" data-interval="false">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block img-width" src="image/sakuya-hime-login.png" alt="Konohanasakuya Login">
+						</div>				
+					<div class="carousel-item">
+						<img class="d-block img-width" src="image/sakuya-hime-screenshot-crop.png" alt="Konohanasakuya Info">
+					</div>
+					</div><!--<div class="carousel-inner">-->
+						<a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+				</div><!--<div id="carouselExampleControls2" class="carousel slide" data-interval="false">-->
+			<br>
+			<p class="text-center p-dark"><a href="https://sakuyahime.000webhostapp.com/index.php" style="color: #cfe9fc;">Link</a> to personal project about Princess Konohanasakuya, using PHP and MySQL with an account system hosted on 000webhost.</p>
+				<div class="text-center">
+					<img src="icons/php-48.png" class="rounded" alt="PHP icon">
+					<img src="icons/mysql2-48.png" class="rounded" alt="MySQL icon">
+				</div>
+			</div><!--<div class="modal-content">-->
+			</div><!--<div id="myModal" class="modal">-->
+		</div><!--<div class="col">-->
+				
+	<br>
+	
+		<!--Modal for Restaurant Menu-->
+		<div class="col-sm">
+		<!-- Trigger/Open The Modal -->
+		<button id="myBtnMENU"></button>
+		<!-- The Modal -->
+		<div id="myModalMENU" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+					<h2 class="h2-font">Choppin' Stix</h2>
+				<div id="carouselExampleControls4" class="carousel slide" data-interval="false">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block img-width" src="image/choppin-stix-screenshot1.png" alt="Restaurant Menu Home">
+						</div>							
+						<div class="carousel-item">
+							<img class="d-block img-width" src="image/choppin-stix-screenshot2.png" alt="Restaurant Menu Desserts">
+						</div>
+					</div><!--<div class="carousel-inner">-->
+					<a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			<br>
+				<p class="text-center p-dark"><a href="https://tam-114.github.io/menu/" style="color: #cfe9fc;">Link</a> to personal project creating a restaurant menu with a faux shop name "Choppin' Stix" using HTML and CSS.</p>
+				<div class="text-center">
+					<img src="icons/html-32.png" class="rounded" alt="HTML icon">
+					<img src="icons/css-32.png" class="rounded" alt="CSS icon">
+				</div>
+			</div><!--<div class="modal-content">-->
+		</div><!--<div id="myModal" class="modal">-->
+		</div><!--<div class="col">-->
+	</div><!--end of row-->
+	<br>
+</div><!--end of container-->
+</article>
+</section>
+
+	<!--<div class="container-fluid bg-light">
 	<h1 class="text-center" id="h1-aboutme">About Me</h1>
 	
 
@@ -88,22 +320,12 @@
 				<a href="https://linkedin.com/in/tstanwebdev/" class="fab fa-github"></a>
 		</div>
 	</div>
-</div>
-
-<!--Resume section-->
-
-<div class="text-center bg-dark-purple">
-		<h1 class="text-center" id="h1-resume">Resume</h1>
-		<div class="resume-img">
-			<iframe src="TaylorStanley_InfographicResume2021.pdf#toolbar=0" class="resume"></iframe>
-		</div>
-</div>
-<br>
+</div>-->
 
 
 <!--Contact me-->
 <div class="bg-light">
-	<h1 class="text-center" id="h1-contact">Contact Me</h1>
+	<h1 class="text-center h1-contact" id="contact">Contact Me</h1>
 
 	<form method="post" action="https://formspree.io/f/xwkwgrnb">
 		<div class="form-group bg-light" style="margin: 20px 20px;">
@@ -139,8 +361,8 @@
 			  	</a>
 			</div>
 			<div class="col-sm">
-				<p id="p-dark">Email:</p>
-				<p id="p-dark">taylor.stanley@taystan.dev</p>
+				<p class="p-dark">Email:</p>
+				<p class="p-dark">taylor.stanley@taystan.dev</p>
 			</div>
 			<div class="col-sm">
 				<a href="https://taystan.dev/" id="footer-links">Home</a>
@@ -150,7 +372,7 @@
 				<a href="https://taystan.dev/contact" id="footer-links">Contact</a>
 			</div>
 			<div class="col-sm">
-				<p id="p-dark">Media:</p>
+				<p class="p-dark">Media:</p>
 				<a href="https://github.com/tam-114/" class="fab fa-linkedin"></a>
 				<a href="https://linkedin.com/in/tstanwebdev/" class="fab fa-github"></a>
 			</div>
