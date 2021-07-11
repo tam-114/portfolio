@@ -167,6 +167,19 @@ body > footer{
 }
 
 /*Modal button as img for FG*/
+#myBtnJT {
+	background-image: url(../image/jt-logo.png);
+	background-repeat: none;
+	width: 300px; /*size of modal preview -- create preview graphic*/
+	height: 300px; /*size of modal preview --create preview graphic*/
+}
+
+#myBtnJT:hover {
+	opacity:  0.5;
+	/*maybe a box shadow*/
+}
+
+/*Modal button as img for FG*/
 #myBtnFG {
 	background-image: url(../image/fg-trivia-logo.png);
 	background-repeat: none;
