@@ -7,6 +7,8 @@ $(document).ready(function() {
         clickedItem.addClass( "active" );
     });
 
+  
+
 // Get the modal
 var modalERA = document.getElementById("myModalERA");
 var modalFG = document.getElementById("myModalFG");

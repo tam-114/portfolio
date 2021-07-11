@@ -17,17 +17,174 @@
 	<!--My CSS-->
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
-	<!--jQuery, then JS-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!--jQuery, then JS
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
 
-	<!--My JS-->
-	<script type="text/javascript" src="js/script.js"></script>
+	<!--My JS
+	<script type="text/javascript" src="js/script.js"></script>-->
 
 	
 </head>
 
 <body>
+    <!--navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dusk sticky-top">
+        <div class="container">
 
+      <a class="navbar-brand" href="https://taystan.dev/">
+          <img src="image/taystan_logo.png" alt="logo TS" class="logo" width="90px" height="90px">
+      </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="https://taystan.dev/">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://taystan.dev/#bio">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://taystan.dev/#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://taystan.dev/#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <section class="bg-light">
+        <header>
+            <div class="container">
+                <h1 class="text-center h1-intern">Internship</h1>
+                <h3 class="text-center h3-subtitle">Summer 2021</h3>
+            </div>
+        </header>
+
+        <p class="p-intern">
+            In my summer semester, I completed an internship with the company <strong>JT Taylor Consulting</strong>. 
+            <br>
+            Showcased are the tasks I&#39;ve completed throughout my internship and skills I&#39;ve built through my time there. 
+            <br>
+            Feel free to explore what I&#39;ve accomplished!
+        </p>
+
+
+        
+            <!--<div class="card text-center">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#weeks1">Weeks 1</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#weeks2">Weeks 2</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#weeks3">Weeks 3</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#weeks4">Weeks 4</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#weeks4">Weeks 5</a>
+                      </li>
+                  </ul>
+                </div>
+
+                <div class="card-body weeks" id="weeks1">
+                  <h5 class="card-title">Weeks 1</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+
+                <div class="card-body weeks" id="weeks2">
+                    <h5 class="card-title">Weeks 2</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+
+                <div class="card-body weeks" id="weeks3">
+                    <h5 class="card-title">Week 3</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+
+                <div class="card-body weeks" id="weeks4">
+                    <h5 class="card-title">Week 4</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+
+                <div class="card-body weeks" id="weeks5">
+                    <h5 class="card-title">Week 5</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>-->
+
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="weeks1-tab" data-toggle="tab" href="#weeks1" role="tab" aria-controls="weeks1" aria-selected="true">Weeks 1</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" id="weeks2-tab" data-toggle="tab" href="#weeks2" role="tab" aria-controls="weeks2" aria-selected="false">Weeks 2</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" id="weeks3-tab" data-toggle="tab" href="#weeks3" role="tab" aria-controls="weeks3" aria-selected="false">Weeks 3</a>
+
+              <li class="nav-item">
+                <a class="nav-link" id="weeks4-tab" data-toggle="tab" href="#weeks4" role="tab" aria-controls="weeks4" aria-selected="false">Weeks 4</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" id="weeks5-tab" data-toggle="tab" href="#weeks5" role="tab" aria-controls="weeks5" aria-selected="false">Weeks 5</a>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="weeks1" role="tabpanel" aria-labelledby="weeks1-tab">
+                <h2>May 21st - 31st</h2>
+                <h1>Tech Data</h1>
+                <img src="image/tech-data.png" alt="Tech Data Meeting"  class="rounded img-fluid img-thumbnail">
+                <p>
+                    I participated in a Zoom call for a reseller licensing opportunity where we met with the host company, Tech Data. It was estimated to be an hour but lasted about a half hour. My tasks were to actively listen to the presentation, ask questions for clarity, and gain an understanding of the process of the Lead program. This task was important because it will be teaching me marketing strategies, sales, and how I would be present for calls to leads when the Lead program starts.
+                </p>
+                <br>
+
+                <h1>Bayard Landscapes</h1>
+                <img src="image/screenshot_client_notes.png" alt="Client Notes" class="rounded img-fluid img-thumbnail">
+
+                <p>
+                    We spoke with the company Bayard Landscapes on Google Meets. This was an introductory consulting meeting and we actively listened to gain an understanding of what their problem areas were and discussed possible solutions. I created notes on the meeting for further reference to review what our goals will be to accomplish for them.
+                </p>
+            </div>
+
+            <div class="tab-pane fade" id="weeks2" role="tabpanel" aria-labelledby="weeks2-tab">
+                different content
+            </div>
+
+            <div class="tab-pane fade" id="weeks3" role="tabpanel" aria-labelledby="weeks3-tab">
+                ...
+            </div>
+
+            <div class="tab-pane fade" id="weeks4" role="tabpanel" aria-labelledby="weeks4-tab">
+                week4
+            </div>
+
+            <div class="tab-pane fade" id="weeks5" role="tabpanel" aria-labelledby="weeks5-tab">
+                week5
+            </div>
+          </div>
+    </div>
+        
+    </section>
     <!--footer-->
 	<footer class="bg-dark-purple container">
 		<div class="row">
@@ -42,10 +199,10 @@
 			</div>
 			<div class="col-sm">
 				<a href="https://taystan.dev/" id="footer-links">Home</a>
-				<a href="#biography" id="footer-links">About Me</a>
-				<a href="#projects" id="footer-links">Projects</a>
+				<a href="https://taystan.dev/#bio" id="footer-links">About Me</a>
+				<a href="https://taystan.dev/#projects" id="footer-links">Projects</a>
 				<a href="TaylorStanley_InfographicResume2021.pdf" download="TayStanResume" id="footer-links">Resume</a>
-				<a href="#contact" id="footer-links">Contact</a>
+				<a href="https://taystan.dev/#contact" id="footer-links">Contact</a>
 			</div>
 			<div class="col-sm">
 				<p class="p-dark">Media:</p>
