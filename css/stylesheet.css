@@ -172,6 +172,7 @@ body > footer{
 	background-repeat: none;
 	width: 300px; /*size of modal preview -- create preview graphic*/
 	height: 300px; /*size of modal preview --create preview graphic*/
+	margin: 10px;
 }
 
 #myBtnJT:hover {
@@ -185,6 +186,7 @@ body > footer{
 	background-repeat: none;
 	width: 300px; /*size of modal preview -- create preview graphic*/
 	height: 300px; /*size of modal preview --create preview graphic*/
+	margin: 10px;
 }
 
 #myBtnFG:hover {
@@ -198,6 +200,7 @@ body > footer{
 	background-repeat: none;
 	width: 300px; /*size of modal preview -- create preview graphic*/
 	height: 300px; /*size of modal preview --create preview graphic*/
+	margin: 10px;
 }
 
 #myBtnERA:hover {
@@ -211,6 +214,7 @@ body > footer{
 	background-repeat: none;
 	width: 300px; /*size of modal preview -- create preview graphic*/
 	height: 300px; /*size of modal preview --create preview graphic*/
+	margin: 10px;
 }
 
 #myBtnKO:hover {
@@ -224,12 +228,14 @@ body > footer{
 	background-repeat: none;
 	width: 300px; /*size of modal preview -- create preview graphic*/
 	height: 300px; /*size of modal preview --create preview graphic*/
+	margin: 10px;
 }
 
 #myBtnMENU:hover {
 	opacity:  0.5;
 	/*maybe a box shadow*/
 }
+
 body {
 	background-color: #1a001a; /*dark purple*/
 }
@@ -319,8 +325,27 @@ body {
     width: 60%;
 }
 
-.skills_php {
+.skills_jquery {
     width: 50%;
+}
+
+.skills_wp {
+    width: 50%;
+}
+.skills_php {
+    width: 60%;
+}
+
+.skills_mysql {
+    width: 50%;
+}
+
+.skills_ps {
+    width: 60%;
+}
+
+.skills_canva {
+    width: 70%;
 }
 
 .container .skills_content {
