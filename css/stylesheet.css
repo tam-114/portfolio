@@ -72,6 +72,20 @@ body > footer{
 	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../image/dusk.png");
 }
 
+/*header {
+	animation: header-load 500ms ease-in;
+}
+
+@keyframes header-load {
+	0% {
+		transform: translateY(-100%);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}*/
+
 /*media screen for carousel*/
 @media screen and (max-width: 850px) {
 	.img-width {
@@ -315,38 +329,102 @@ body {
 
 .skills_html {
     width: 90%;
+	animation: progress-html 3s ease-in-out;
+    animation-fill-mode:both; 
 }
+
+@keyframes progress-html {
+	0% { width: 0; }
+	100% { width: 90%; }
+  }
 
 .skills_css {
     width: 80%;
+	animation: progress-css 3s ease-in-out;
+    animation-fill-mode:both; 
 }
+
+@keyframes progress-css {
+	0% { width: 0; }
+	100% { width: 80%; }
+  }
 
 .skills_js {
     width: 60%;
+	animation: progress-js 3s ease-in-out;
+    animation-fill-mode:both; 
 }
+
+@keyframes progress-js {
+	0% { width: 0; }
+	100% { width: 60%; }
+  }
 
 .skills_jquery {
     width: 50%;
+	animation: progress-jquery 3s ease-in-out;
+    animation-fill-mode:both; 
 }
+
+@keyframes progress-jquery {
+	0% { width: 0; }
+	100% { width: 50%; }
+  }
 
 .skills_wp {
     width: 50%;
+	animation: progress-wp 3s ease-in-out;
+    animation-fill-mode:both; 
 }
+
+@keyframes progress-wp {
+	0% { width: 0; }
+	100% { width: 50%; }
+  }
+
 .skills_php {
     width: 60%;
+	animation: progress-php 3s ease-in-out;
+    animation-fill-mode:both; 
 }
+
+@keyframes progress-php {
+	0% { width: 0; }
+	100% { width: 60%; }
+  }
 
 .skills_mysql {
     width: 50%;
+	animation: progress-mysql 3s ease-in-out;
+    animation-fill-mode:both; 
 }
+
+@keyframes progress-mysql {
+	0% { width: 0; }
+	100% { width: 50%; }
+  }
 
 .skills_ps {
     width: 60%;
+	animation: progress-ps 3s ease-in-out;
+    animation-fill-mode:both; 
 }
+
+@keyframes progress-ps {
+	0% { width: 0; }
+	100% { width: 60%; }
+  }
 
 .skills_canva {
     width: 70%;
+	animation: progress-canva 3s ease-in-out;
+    animation-fill-mode:both; 
 }
+
+@keyframes progress-canva {
+	0% { width: 0; }
+	100% { width: 70%; }
+  }
 
 .container .skills_content {
 	margin-bottom: var(--mb-2-5);
