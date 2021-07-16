@@ -250,6 +250,19 @@ body > footer{
 	/*maybe a box shadow*/
 }
 
+#myBtnYT {
+	background-image: url(../image/yt-logo.png);
+	background-repeat: none;
+	width: 300px; /*size of modal preview -- create preview graphic*/
+	height: 300px; /*size of modal preview --create preview graphic*/
+	margin: 10px;
+}
+
+#myBtnYT:hover {
+	opacity:  0.5;
+	/*maybe a box shadow*/
+}
+
 body {
 	background-color: #1a001a; /*dark purple*/
 }

@@ -14,18 +14,21 @@ var modalERA = document.getElementById("myModalERA");
 var modalFG = document.getElementById("myModalFG");
 var modalKO = document.getElementById("myModalKO");
 var modalMENU = document.getElementById("myModalMENU");
+var modalYT = document.getElementById("myModalYT");
 
 // Get the button that opens the modal
 var btnFG = document.getElementById("myBtnFG");
 var btnERA = document.getElementById("myBtnERA");
 var btnKO = document.getElementById("myBtnKO");
 var btnMENU = document.getElementById("myBtnMENU");
+var btnYT = document.getElementById("myBtnYT");
 
 // Get the <span> element that closes the modal
 var span0 = document.getElementsByClassName("close")[0];
 var span1 = document.getElementsByClassName("close")[1];
 var span2 = document.getElementsByClassName("close")[2];
 var span3 = document.getElementsByClassName("close")[3];
+var span4 = document.getElementsByClassName("close")[4];
 
 
 // When the user clicks the button, open the modal 
@@ -43,6 +46,10 @@ btnKO.onclick = function() {
 
 btnMENU.onclick = function() {
   modalMENU.style.display = "block";
+}
+
+btnYT.onclick = function() {
+  modalYT.style.display = "block";
 }
 
 //closing the modal
@@ -63,6 +70,10 @@ span3.onclick = function() {
 	modalMENU.style.display = "none";
 }
 
+span4.onclick = function() {
+	modalYT.style.display = "none";
+}
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modalERA) {
@@ -76,6 +87,9 @@ window.onclick = function(event) {
   }
    if (event.target == modalMENU) {
     modalMENU.style.display = "none";
+  }
+  if (event.target == modalYT) {
+    modalYT.style.display = "none";
   }
 }
 });
