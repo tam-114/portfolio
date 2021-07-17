@@ -731,6 +731,25 @@ iframe.cert {
 	font-size: 18px;
 }
 
+.bullets {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.bullet-title {
+	font-size: 18px;
+	text-align: left;
+}
+
+.bullet-list {
+	text-align: left;
+	list-style-position: inside;
+	list-style-type: circle;
+}
+
 .h3-skills {
 	padding-top: 2%; 
 	padding-bottom: 2%;
