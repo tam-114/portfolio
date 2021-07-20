@@ -733,10 +733,8 @@ iframe.cert {
 
 .bullets {
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: left;
 }
 
 .bullet-title {
