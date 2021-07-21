@@ -731,22 +731,30 @@ iframe.cert {
 	font-size: 18px;
 }
 
-.bullets {
+.list-item-group {
+	color: #1a001a;
+}
+
+/*Add media query for 370px (mobile) to break up grid cols*/
+
+/*.bullets {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
-}
+}*/
 
 .bullet-title {
-	font-size: 18px;
-	text-align: left;
+	font-size: 20px;
+	text-align: center; /*left*/
+	/*font-style: italic;*/
+	font-weight: var(--font-semi-bold);
 }
 
-.bullet-list {
+/*.bullet-list {
 	text-align: left;
 	list-style-position: inside;
 	list-style-type: circle;
-}
+}*/
 
 .h3-skills {
 	padding-top: 2%; 
