@@ -566,6 +566,9 @@ p {
 	text-align: center;
 }
 
+.col-sm {
+	padding-top: 20px!important;
+}
 footer {
 	color: white;
 	font-family: 'Poiret One', cursive;
