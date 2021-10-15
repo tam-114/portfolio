@@ -797,3 +797,9 @@ iframe.cert {
 	margin: 0 auto;
 	display: flex;
 }
+
+.narrow {
+	margin: 0 auto;
+	padding-left: 20%;
+	padding-right: 20%;
+}
