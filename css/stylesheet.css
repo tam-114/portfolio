@@ -69,7 +69,8 @@ body > footer{
 	font-weight: 600;
 }
 .bg-dusk {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../image/dusk.png");
+	/*background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../image/dusk.png");*/
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../image/gradient-purple-blue.png");
 }
 
 /*header {
@@ -263,9 +264,9 @@ body > footer{
 	/*maybe a box shadow*/
 }
 
-body {
-	background-color: #1a001a; /*dark purple*/
-}
+/*body {
+	background-color: #1a001a; dark purple
+}*/
 
 .bg-dark-purple {
 	background-color: #1a001a;
@@ -772,13 +773,13 @@ iframe.cert {
 .h1-projects {
 	padding-top: 2%; 
 	padding-bottom: 2%; 
-	color: #ffe6ff; 
+	color: #1a001a; 
 	font-weight: 600;
 	text-shadow: 2px 2px 3px gray;
 }
 
 .h1-contact {
-	padding-top: 2%; 
+	padding-top: 2%;
 	padding-bottom: 2%; 
 	color: #1a001a; 
 	font-weight: 600;
